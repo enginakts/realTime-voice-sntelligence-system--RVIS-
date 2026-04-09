@@ -41,6 +41,10 @@ Genel fikir:
 
 ## Veri Seti (TIMIT) Hakkında Kısa Not
 
+- Veri setini indirmek için (zip): [figshare TIMIT_zip](https://figshare.com/articles/dataset/TIMIT_zip/5802597)
+- İndirdikten sonra, içerikteki `TIMIT` klasörünü bu projede `data/lisa/data/timit/raw/` altına gelecek şekilde yerleştirmen gerekiyor. Örnek hedef yol:
+  - `data/lisa/data/timit/raw/TIMIT/TRAIN/...`
+
 - **Cinsiyet etiketi** `speaker_id`’nin ilk harfinden türetilir:
   - `M...` → `gender=0` (Male)
   - `F...` → `gender=1` (Female)
